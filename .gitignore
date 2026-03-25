@@ -1,0 +1,32 @@
+# Paquetes y dependencias
+node_modules/
+package-lock.json
+
+# Entorno y Secretos
+.env
+.env.*
+!.env.example
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Builds y compilados frontend (Svelte/Vite)
+frontend/dist/
+frontend/build/
+frontend/.svelte-kit/
+frontend/.vercel/
+
+# Archivos estáticos o subidas backend
+backend/uploads/
+!backend/uploads/.gitkeep
+
+# Archivos de SO
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+tmp/
